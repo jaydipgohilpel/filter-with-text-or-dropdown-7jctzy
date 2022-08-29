@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  background-color: rgb(83, 82, 82);
+}
+
+td.mat-cell {
+  border: 2px solid rgb(91, 91, 91);
+  padding: 2px;
+  color: snow;
+}
+
+th.mat-header-cell {
+  color: snow;
+  background-color: black;
+  padding: 2px;
+}
+
+td,
+th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.mat-sort-header-container {
+  justify-content: center !important;
+}
